@@ -1,0 +1,20 @@
+{
+  "name": "mini_store",
+  "homepage": "https://github.com/biubird/branching_merging",
+  "authors": [
+    "Heather Doucet <heatherredoucet@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-route": "^1.5.8"
+  }
+}
