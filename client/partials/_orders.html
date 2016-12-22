@@ -1,4 +1,4 @@
-<h2>Orders!</h2>
+<h3>Place Your Order!</h3>
 <div class="order_form">
   <form >
     <select ng-model='newOrder._customer'>
@@ -9,11 +9,11 @@
       <option value="5">5</option>
       <option value="10">10</option>
       <option value="20">20</option>
-    </select><br />
+    </select>
     <select ng-model='newOrder._product'>
       <option ng-repeat='product in products' value={{product._id}} ng-bind='product.name'></option>
     </select>
-    <input type="submit" ng-click="createOrder()" value="Add Order" />
+    <div class="btn btn-primary" role="button" ng-click="createOrder()">Create Order!</div>
   </form>
 </div>
 <div class="order_list">

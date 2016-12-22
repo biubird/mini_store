@@ -18,7 +18,7 @@ App.controller('IndexController', function($scope, ProductFactory, CustomerFacto
     })
   }
   getAllCustomers();
-  
+
   function getOrders(){
     OrderFactory.getOrders()
     .then( function(serverResponse){

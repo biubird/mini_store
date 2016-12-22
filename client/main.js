@@ -1,6 +1,6 @@
 var App = angular.module('StoreModule', ['ngRoute']);
 
-var USER = prompt('Please login!');
+var USER = prompt('Enter your name to shop!');
 
 App.config(function($routeProvider){
   $routeProvider
